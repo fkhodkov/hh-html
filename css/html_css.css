@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+.contact-container {
+    background-color: #dedede;
+    font-family: sans-serif;
+}
+
+.contact-form {
+    color: #333;
+    background-color: #fff;
+    width: 800px;
+    position: relative;
+    text-align: center;
+    margin: 100px auto;
+    padding: 90px 70px;
+}
+
+.contact-icon {
+    background: #fff url(../images/letter.png) no-repeat center;
+    top: -50px;
+    border: 1px solid #dedede;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin-left: 270px;
+    position: absolute;
+}
+
+.contact-header {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.contact-row {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.contact-element {
+    border: 1px solid #dedede;
+    border-radius: 2px;
+}
+
+.contact-element:focus, .contact-element:active {
+    border-color: #ff4b5a;
+}
+
+.contact-text-field {
+    font-size: 20px;
+    height: 60px;
+    padding: 18px 4px 18px 18px;
+}
+
+.contact-text-field + .contact-text-field {
+    margin-left: 20px;
+}
+
+.contact-message {
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.contact-submit-wrapper {
+    text-align: right;
+}
+
+.contact-submit {
+    background-color: #ff4b5a;
+    color: #fff;
+    font-size: 18px;
+    padding: 13px 27px;
+}
+
+.contact-submit:hover, .contact-submit:focus, .contact-submit:active {
+    background-color: #333;
+}
