@@ -45,12 +45,14 @@
 
 .contact-element:focus, .contact-element:active {
     border-color: #ff4b5a;
+    outline: none;
 }
 
 .contact-text-field {
     font-size: 20px;
     height: 60px;
-    padding: 18px 4px 18px 18px;
+    padding: 18px;
+    width: 317px;
 }
 
 .contact-text-field + .contact-text-field {
