@@ -17,15 +17,17 @@
     padding: 90px 70px;
 }
 
-.contact-icon {
+.contact-form::before {
+    content: '';
     background: #fff url(../images/letter.png) no-repeat center;
     top: -50px;
     border: 1px solid #dedede;
     border-radius: 50px;
     width: 100px;
     height: 100px;
-    margin-left: 270px;
+    margin: auto;
     position: absolute;
+    left: calc(50% - 50px);
 }
 
 .contact-header {
